@@ -12,8 +12,6 @@ app.use(express.static('public'));
 // Create an HTTP server
 const server = http.createServer(app);
 
-
-
 // Create a WebSocket server
 const wss = new WebSocket.Server({ server });
 
