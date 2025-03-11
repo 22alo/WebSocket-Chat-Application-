@@ -9,8 +9,6 @@ const port = 3000;
 // Serve static files for the client
 app.use(express.static('public'));
 
-
-
 // Create an HTTP server
 const server = http.createServer(app);
 
