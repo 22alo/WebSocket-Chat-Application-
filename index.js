@@ -6,6 +6,8 @@ const express = require('express');
 const app = express();
 const port = 3000;
 
+
+
 // Serve static files for the client
 app.use(express.static('public'));
 
