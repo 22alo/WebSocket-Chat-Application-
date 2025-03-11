@@ -15,8 +15,6 @@ const server = http.createServer(app);
 // Create a WebSocket server
 const wss = new WebSocket.Server({ server });
 
-
-
 // Keep track of connected clients
 const clients = new Set();
 
